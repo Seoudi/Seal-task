@@ -64,7 +64,7 @@ class MovieDetails extends React.Component{
                                     <div className='container-content col-md-8'>
                                         <div className='content-header'>
                                             
-                                            <ul className='content-list'><i class="far fa-calendar-alt"></i>
+                                            <ul className='content-list'>
                                                 <li>{movie.release_date.split('-')[0]} <span class="far fa-calendar-alt"></span></li>
                                                 <li>{movie.runtime}<span class="far fa-clock ml-1"></span></li>
                                                 <li>{movie.genres[0].name}</li>
